@@ -1,0 +1,27 @@
+* {
+    background-color: #1F2937;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.one-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link-one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.large-text {
+    font-size: 25px;
+    font-weight: bold;
+}

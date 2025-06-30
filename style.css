@@ -4,6 +4,10 @@
     color: white;
 }
 
+body {
+    margin: 0;
+}
+
 ul {
     list-style-type: none;
 }
@@ -24,4 +28,106 @@ ul {
 .large-text {
     font-size: 25px;
     font-weight: bold;
+}
+
+.two-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    margin: 50px;
+}
+
+.sign-button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sign-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.two-first-wrap {
+    width: 300px
+}
+
+.three-wrap{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    gap: 20px;
+}
+
+.box {
+    margin: auto;
+    padding: 50px;
+    border: 4px;
+    border-radius: 16px;
+    border-color: #3882F6;
+    border-style: solid;
+    background-color: white;
+}
+
+.box-text {
+    background-color: white;
+    color: black;
+    font-style: italic;
+}
+
+.box-container {
+    padding: 20px;
+    background-color: white;
+}
+
+.four-big-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px 150px;
+    background-color: #E5E7EB;
+}
+
+.four-container {
+    background-color: #E5E7EB;
+}
+
+.quote-text{
+    font-style: italic;
+    background-color: #E5E7EB;
+    color: black;
+    font-size: 36px;
+}
+
+.quote-author-text {
+    font-weight: bold;
+    background-color: #E5E7EB;
+    color: black;
+    font-size: 20px;
+    text-align: right;
+}
+
+.five-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 75px 150px;
+    background-color: white;
+}
+
+.five-item-container {
+    background-color: #3882F6;
+    border-radius: 20px;
+    border: 10px;
+    border-style: solid;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
 }

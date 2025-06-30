@@ -131,3 +131,8 @@ ul {
     align-items: center;
     gap: 50px;
 }
+
+.footer{
+    padding: 100px;
+    text-align: center;
+}
